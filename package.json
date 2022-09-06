@@ -1,0 +1,10 @@
+{
+  "name": "walk-git-dir",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "go build -o bin/walk-git-dir main.go",
+    "deploy": "yarn build && cp bin/walk-git-dir /usr/local/bin/"
+  }
+}
